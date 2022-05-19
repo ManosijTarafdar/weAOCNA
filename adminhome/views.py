@@ -1,4 +1,5 @@
 from cgi import print_environ
+from pydoc import resolve
 from unittest import removeResult
 import django
 from django.shortcuts import redirect, render
@@ -95,6 +96,15 @@ def updateCase(request):
             object.save()
         except:
             messages.error(request,"No Data Found")
+        rnew = Resque.objects.all().filter(vol="Pending")
+        for each in rnew:
+            vassign = Volunteer.objects.all().filter(status="Free")
+            if len(vassign) != 0:
+                each.vol = vassign[0].id
+                vassign[0].status = "Deployed"
+                each.save()
+                vassign[0].save()
+
     return render(request,'adminhome/update.html')
 
 #Error Page
