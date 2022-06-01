@@ -1,6 +1,13 @@
 
 # CHANGELOG
 
+## v1.2.1
+- June 1 , 2022
+```
+- Added session expire definitions on browser close
+- Minor Fixes to UI
+```
+
 ## v1.2.0
 - May 19 , 2022
 ```
