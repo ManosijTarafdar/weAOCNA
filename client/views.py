@@ -55,7 +55,7 @@ def placevolunteer():
     object  = Volunteer.objects.all()
     search = object.filter(status='Free')
     if len(search) == 0:
-        return "Pending..."
+        return "Pending"
     else:
         data = Volunteer.objects.get(id = search[0].id)
         data.status = "Deployed"
