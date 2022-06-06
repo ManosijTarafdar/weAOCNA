@@ -1,6 +1,12 @@
 
 # CHANGELOG
 
+## v1.2.2
+- June 5 , 2022
+```
+- Fixed the issue regarding pending cases
+``` 
+
 ## v1.2.1
 - June 1 , 2022
 ```
