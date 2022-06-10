@@ -29,25 +29,20 @@ for animals in India.
 # How to use
 
 ## Client side
-1. 
-Open the url below.
+1. Open the url below.
 ```bash
     https://manosijmckvie.pythonanywhere.com
 ```
-2. 
-If you resqued a Animal click on the register button.
+2. If you resqued a Animal click on the register button.
 
-3. 
-Fill out the form and submit it.A volunteer will be assigned and he/she will contact you to take over  the case
+3. Fill out the form and submit it.A volunteer will be assigned and he/she will contact you to take over  the case
 
 ## Admin side
-1. 
-Open the url below.
+1. Open the url below.
 ```bash
     https://manosijmckvie.pythonanywhere.com/weaocna/login
 ```
-2. 
-Type your 'USERNAME' and 'PASSWORD' to login.
+2. Type your 'USERNAME' and 'PASSWORD' to login.
 
 - Features of Admin site.
 ```bash
