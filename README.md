@@ -26,33 +26,32 @@ for animals in India.
 - Bootstrap
 - Django with python
 
-## Run Locally
+# How to use
 
-Clone the project
-
+## Client side
+1. 
+Open the url below.
 ```bash
-  git clone https://link-to-project
+    https://manosijmckvie.pythonanywhere.com
 ```
+2. 
+If you resqued a Animal click on the register button.
 
-Install Django
+3. 
+Fill out the form and submit it.A volunteer will be assigned and he/she will contact you to take over  the case
 
+## Admin side
+1. 
+Open the url below.
 ```bash
-  pip install django
+    https://manosijmckvie.pythonanywhere.com/weaocna/login
 ```
+2. 
+Type your 'USERNAME' and 'PASSWORD' to login.
 
-Install Python
-
+- Features of Admin site.
 ```bash
-  https://www.python.org/downloads/
-```
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Start the server
-
-```bash
-  python manage.py runserver
+- Dashboard of recent cases , monthly data.
+- Detailed information of cases using caseid or within a date frame.
+- Update registerd cases.
 ```
