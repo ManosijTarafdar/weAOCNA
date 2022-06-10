@@ -104,8 +104,11 @@ def updateCase(request):
                 vassign[0].status = "Deployed"
                 each.save()
                 vassign[0].save()
-
-    return render(request,'adminhome/update.html')
+    userType = request.user.groups.all()[0].name
+    context = {
+        'userType':userType,
+    }
+    return render(request,'adminhome/update.html',context)
 
 #Error Page
 def ErrorFound(request):

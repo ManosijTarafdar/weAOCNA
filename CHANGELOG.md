@@ -1,6 +1,12 @@
 
 # CHANGELOG
 
+## v1.2.3
+- June 10 , 2022
+```
+- Minor Improvements in Admin UI
+```
+
 ## v1.2.2
 - June 5 , 2022
 ```
